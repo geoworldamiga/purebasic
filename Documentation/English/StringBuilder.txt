@@ -113,7 +113,8 @@
   Returns nonzero if the string was successfully appended and zero if there was an error.
 
 @Remarks
-  This function efficiently appends the string and the newline character to the internal buffer, growing the buffer as needed.
+  This function efficiently appends the string and the newline character (@#CRLF$ on Windows, @#LF$ on other OS)
+  to the internal buffer, growing the buffer as needed.
   Multiple calls to this function can be chained together to build complex strings efficiently.
 
 @Example

@@ -119,7 +119,8 @@
   wenn ein Fehler aufgetreten ist.
 
 @Remarks
-  Diese Funktion fügt die Zeichenkette und das Zeilenumbruchzeichen effizient an den internen Puffer an und vergrößert diesen bei Bedarf.
+  Diese Funktion fügt die Zeichenkette und das Zeilenumbruchzeichen (@#CRLF$ auf Windows, @#LF$ auf anderen OS)
+  effizient an den internen Puffer an und vergrößert diesen bei Bedarf.
   Mehrere Aufrufe dieser Funktion können verkettet werden, um komplexe Zeichenketten effizient zu erstellen.
 
 @Example
